@@ -1,0 +1,21 @@
+button {
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(62, 1, 112);
+  width: 10%;
+  height: 35%;
+  cursor: pointer;
+  position: relative;
+  top: 1vh;
+  transition: 0.5s;
+}
+
+.header .nav1 .nav1div2 button a {
+  text-decoration: none;
+  color: aliceblue;
+  width: 100%;
+}
+
+.header .nav1 .nav1div2 button:hover {
+  background-color: rgb(85, 11, 145);
+}

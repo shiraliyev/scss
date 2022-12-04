@@ -1,0 +1,49 @@
+.sec3{
+    background-color:$header-bgcolor;
+   width: 90%;
+   margin: 0 auto;
+   height: 50%;
+   
+   .sec3div1{
+      width: 29%;
+      height: 40%;
+      color: rgb(46, 45, 45);
+      display:inline-block;
+      position: relative;
+      left: 7%;
+      bottom: 19vh;
+      h3{
+         font-size: 8vh;
+      }
+      h6{
+         font-size: 2.7vh;
+         padding-top: 7vh;
+      }
+      .btn {
+        border: none;
+        
+        background-color: rgb(39, 39, 39);
+        width: 15vw;
+        height: 8vh;
+        cursor: pointer;
+        position: relative;
+        top: 1vh;
+        transition: 0.5s;
+        a {
+           text-decoration: none;
+           color: aliceblue;
+           width: 100%;
+         }
+      }
+       
+      button:hover {
+        background-color: rgb(26, 26, 26);
+      }   
+       
+   }
+   .img{
+    width: 50%;
+    height: 85vh;
+    margin-left: 20vh;
+    margin-top: 5vh;}
+}

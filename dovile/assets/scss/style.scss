@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+@import './variables/variable';
+
+@import './extend/extend';
+
+@import './layout/header';
+
+@import './section/section1';
+@import'./section/section2';
+@import './section/section3';
+@import './section/section4';
+@import './main/main';
+@import './footer/footer';
+@import './mixin/mixin';
